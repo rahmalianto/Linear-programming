@@ -37,7 +37,7 @@ HARGA_LELE_BESAR_VAR = tk.DoubleVar()
 frame1 = ttk.Frame(window)
 frame1.grid(pady=10, row=0, column=0)
 
-
+# ROW PERTAMA - PAKAN 1MM
 pakan_1mm_label = ttk.Label(frame1, text="Pakan 1mm")
 pakan_1mm_label.grid(padx=10, row=0, column=0)
 
@@ -62,7 +62,7 @@ batasan_pakan_1mm_entry = ttk.Entry(frame1, textvariable=BATAS_PAKAN_1MM)
 batasan_pakan_1mm_entry.grid(padx=10, row=1, column=7)
 
 
-
+# ROW KEDUA - PAKAN 0.5MM
 pakan_05mm_label = ttk.Label(frame1, text="Pakan 05mm")
 pakan_05mm_label.grid(padx=10, row=2, column=0)
 
@@ -87,7 +87,7 @@ batasan_pakan_05mm_entry = ttk.Entry(frame1, textvariable=BATAS_PAKAN_05MM)
 batasan_pakan_05mm_entry.grid(padx=10, row=3, column=7)
 
 
-
+# ROW KETIGA - PAKAN HALUS
 pakan_halus_label = ttk.Label(frame1, text="Pakan halus")
 pakan_halus_label.grid(padx=10, row=4, column=0)
 
@@ -113,6 +113,7 @@ batasan_pakan_halus_entry.grid(padx=10, row=5, column=7)
 
 
 
+# ROW KEEMPAT - HARGA JUAL
 harga_label = ttk.Label(frame1, text="Harga jual")
 harga_label.grid(padx=10, row=6, column=0)
 
